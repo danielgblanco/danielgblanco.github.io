@@ -1,0 +1,17 @@
+.md-header {
+    background-image: url('../img/background.jpg');
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #4F8D6C;
+    --md-primary-fg-color--light: #AED1BA;
+    --md-primary-fg-color--dark:  #104929;
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:        #4F8D6C;
+    --md-primary-fg-color--light: #AED1BA;
+    --md-primary-fg-color--dark:  #104929;
+}
