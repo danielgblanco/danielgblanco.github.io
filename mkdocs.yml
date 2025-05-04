@@ -1,0 +1,101 @@
+site_name: Dan Gomez Blanco
+site_description: Dan Gomez Blanco's personal website
+site_url: https://danielgblanco.github.io/
+
+theme:
+  name: material
+  logo: assets/img/profile_round_small.png
+  favicon: assets/img/profile_round_small.png
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.instant
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search
+  - blog:
+      archive: true
+      authors: false
+      authors_file: "{blog}/.authors.yml"
+      blog_toc: false
+      categories_toc: false
+      categories_allowed:
+        - Publications
+        - Podcasts
+        - Presentations
+        - Panels
+        - Articles
+        - Books
+      pagination_per_page: 10
+  - meta
+  - tags
+  - social
+  - rss:
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+      categories:
+        - categories
+
+extra:
+  social:
+    - icon: material/rss
+      link: /feed_rss_updated.xml
+      name: Subscribe to the RSS Feed
+    - icon: fontawesome/brands/bluesky
+      name: Follow me on Bluesky
+      link: https://bsky.app/profile/dangb.me
+    - icon: fontawesome/brands/linkedin
+      name: Follow me on LinkedIn
+      link: https://www.linkedin.com/in/danielgblanco86/
+    - icon: fontawesome/brands/github
+      name: Follow me on GitHub
+      link: https://github.com/danielgblanco/
+    - icon: fontawesome/brands/amazon
+      name: Follow me on Amazon
+      link: https://www.amazon.co.uk/stores/Daniel-Gomez-Blanco/author/B0BTDTXY4T
+    - icon: fontawesome/brands/500px
+      name: Follow me on 500px
+      link: https://500px.com/p/dan_gomezblanco?view=photos
+
+extra_css:
+  - assets/stylesheets/style.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - About Me: index.md
+  - Articles: blog/category/articles/
+  - Publications: blog/category/publications/
+  - Presentations: blog/category/presentations/
+  - Panels: blog/category/panels/
+  - Podcasts: blog/category/podcasts/
+  - All Content:
+      - blog/index.md
+  - Tags: blog/tags/
