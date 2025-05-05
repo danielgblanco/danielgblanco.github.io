@@ -9,6 +9,7 @@ tags:
   - PurePerformance
   - OpenTelemetry
 slug: pureperformance-2023
+cSpell:ignore: andi grabner
 ---
 
 # PurePerformance

@@ -9,6 +9,7 @@ tags:
   - OpenTelemetry
   - Observability Day
 slug: opentelemetry-bridging-platform-and-enablement
+cSpell:ignore: hachyderm
 ---
 
 # OpenTelemetry: Bridging Platform and Enablement

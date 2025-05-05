@@ -5,21 +5,28 @@ This is my personal website, built using [Material for MkDocs](https://squidfunk
 ## Prerequisites
 
 - Python 3.13 or higher
+- Node 22 or higher
 - `pip`
 - `pip-tools`
 - `make`
 
-## Usage
+## Installation
 
 ### Install Dependencies
 
-To install the required Python packages, run:
+To install the required Python packages to serve the documentation via MKDocs, run:
 
 ```bash
-pip install -r requirements.txt
+make install
 ```
 
-### Serve the Website Locally
+If you require packages needed for development, such as `cspell`, run:
+
+```bash
+make install-dev
+```
+
+## Serve the Website Locally
 To preview the website locally, use the following command:
 
 ```bash
@@ -27,6 +34,8 @@ make serve
 ```
 
 This will start a local development server. Open your browser and navigate to http://127.0.0.1:8000 to view the site.
+
+## Development
 
 ### Upgrade Python Packages
 
@@ -38,6 +47,12 @@ make upgrade
 
 This will use `pip-compile` to regenerate the `requirements.txt` file with updated dependencies.
 
+### Linting
+To check for spelling errors in the documentation, run:
+
+```bash
+make check-spelling
+```
 
 ## Deployment
 The website is deployed automatically to GitHub Pages using GitHub Actions. Any changes pushed to the `main` branch will trigger the deployment workflow.

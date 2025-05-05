@@ -6,9 +6,10 @@ pin: false
 categories:
   - Podcasts
 tags:
-  - O11ycast
+  - OpenTelemetry In Use
   - OpenTelemetry
 slug: opentelemetry-in-use-2023
+cSpell:ignore: hausenblas
 ---
 
 # OpenTelemetry In Use
