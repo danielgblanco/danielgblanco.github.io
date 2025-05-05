@@ -1,6 +1,6 @@
 <style>
   /*  Navigation sidebar */
-  .md-nav--primary {
+  .md-nav__link--active {
     display: none
   }
 
