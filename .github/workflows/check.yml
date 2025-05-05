@@ -18,18 +18,21 @@ jobs:
         with:
           python-version: 3.13
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
         with:
-          node-version: 22
-
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          key: pip-cache-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          path: ~/.cache/pip
           restore-keys: |
-            mkdocs-material-
+            pip-cache-
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          key: npm-cache-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.npm
+          restore-keys: |
+            npm-cache-
 
       - name: Install dev dependencies
         run: make install-dev
