@@ -17,26 +17,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.13
+          cache: pip
 
       - uses: actions/setup-node@v3
         with:
           node-version: 22
-
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          key: pip-cache-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
-          path: ~/.cache/pip
-          restore-keys: |
-            pip-cache-
-
-      - name: Cache npm dependencies
-        uses: actions/cache@v4
-        with:
-          key: npm-cache-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
-          path: ~/.npm
-          restore-keys: |
-            npm-cache-
+          cache: npm
 
       - name: Install dev dependencies
         run: make install-dev
