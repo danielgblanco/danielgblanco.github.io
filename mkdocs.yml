@@ -1,6 +1,6 @@
 site_name: Dan Gomez Blanco
 site_description: Dan Gomez Blanco's personal website
-site_url: https://danielgblanco.github.io/
+site_url: https://www.dangb.me/
 
 theme:
   name: material

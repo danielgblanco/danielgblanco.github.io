@@ -1,4 +1,4 @@
-# danielgblanco.github.io
+# www.dangb.me
 
 This is my personal website, built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
