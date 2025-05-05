@@ -1,12 +1,18 @@
----
-hide:
-  - navigation
-  - toc
----
+<style>
+  /*  Navigation sidebar */
+  .md-nav--primary {
+    display: none
+  }
+
+  /*  Table of contents sidebar */
+  .md-nav--secondary {
+    display: none
+  }
+</style>
 
 # About Me
 
-<img src="/assets/img/profile_800x800.png" style="float: left; width: 180px; margin-right: 12px"/>
+<img src="/assets/img/profile_800x800.png" style="float: left; width: 200px; margin-right: 12px"/>
 
 I'm a Principal Strategic Solutions Architect at [New Relic](https://newrelic.com/), supporting customers in their journey to drive
 adoption of best practices in observability and operational readiness across their engineering teams. Although maybe
