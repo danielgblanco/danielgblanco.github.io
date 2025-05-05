@@ -8,6 +8,7 @@ categories:
 tags:
   - OpenTelemetry
 slug: practical-opentelemetry-jp
+cSpell:ignore: kazunori otani
 ---
 
 # 実践 OpenTelemetry: ―オープンなオブザーバビリティ標準を組織に導入する

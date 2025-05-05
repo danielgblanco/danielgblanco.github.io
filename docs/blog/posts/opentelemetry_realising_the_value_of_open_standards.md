@@ -9,6 +9,7 @@ tags:
   - OpenTelemetry
   - Observability Day
 slug: open-telemetry-realising-the-value-of-open-standards
+cSpell:ignore: sodkiewicz dyrmishi oluwalolope
 ---
 
 # OpenTelemetry: Realising the Value of Open Standards

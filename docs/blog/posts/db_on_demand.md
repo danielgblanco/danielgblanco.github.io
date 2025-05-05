@@ -9,6 +9,7 @@ tags:
   - Databases
   - Platform Engineering
 slug: db-on-demand
+cSpell:ignore: aparicio wojcik
 ---
 
 # DB On Demand

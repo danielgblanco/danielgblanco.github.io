@@ -8,7 +8,8 @@ categories:
 tags:
   - Bioinformatics
   - Sequence Alignment
-slug: pureperformance-2023
+slug: alter
+cSpell:ignore: uvigo glez peña reboiro fdez riverola posada suppl
 ---
 
 # ALTER: program-oriented conversion of DNA and protein alignments

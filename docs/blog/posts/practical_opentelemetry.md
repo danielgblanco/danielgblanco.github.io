@@ -50,4 +50,4 @@ Adopting observability best practices across an organization is challenging. Thi
 
 ### Who This Book Is For
 
-Software engineers familiar with cloud-native technologies and operational monitoring who want  to instrument and export telemetry data from their services; observability leads who want to roll out OpenTelemetry standards and bestpractices across their organizations; and Java developers who want a book with OpenTelemetry examples in that language
+Software engineers familiar with cloud-native technologies and operational monitoring who want  to instrument and export telemetry data from their services; observability leads who want to roll out OpenTelemetry standards and best practices across their organizations; and Java developers who want a book with OpenTelemetry examples in that language

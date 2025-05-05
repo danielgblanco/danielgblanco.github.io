@@ -9,6 +9,7 @@ tags:
   - Beyond the Hype
   - OpenTelemetry
 slug: beyond-the-hype-2024
+cSpell:ignore: cronk
 ---
 
 # Beyond the Hype

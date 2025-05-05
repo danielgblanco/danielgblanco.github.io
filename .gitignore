@@ -21,6 +21,9 @@ Gemfile.lock
 /venv
 /danielgblanco.github.io.egg-info
 
+# Node
+/node_modules
+
 # Idea
 /.idea
 

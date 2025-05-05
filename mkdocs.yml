@@ -98,4 +98,7 @@ nav:
   - Podcasts: blog/category/podcasts/
   - All Content:
       - blog/index.md
-  - Tags: blog/tags/
+  - Tags: blog/tags.md
+
+validation:
+  not_found: ignore

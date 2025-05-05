@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "check:spelling": "npx cspell --no-progress -c .cspell.yml content data 'docs/**/*.md'"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "cspell": "^8.19.3"
+  }
+}
