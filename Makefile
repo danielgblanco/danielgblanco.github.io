@@ -1,4 +1,4 @@
-# Install requirements for serving the documentation
+# Install requirements for serving the documentatio
 .PHONY: install
 install:
 	pip install -r requirements.txt
