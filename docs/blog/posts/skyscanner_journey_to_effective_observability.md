@@ -16,7 +16,7 @@ readtime: 8
 # Skyscanner’s journey to effective observability
 
 <a href="https://medium.com/@SkyscannerEng/skyscanners-journey-to-effective-observability-655167a49d2f">
-  <img src="/assets/img/skyscanner.png" alt="Skyscanner logo" style="float: left; width: 120px; margin-right: 12px"/>
+  <img src="/assets/img/skyscanner.png" alt="Skyscanner logo" style="float: left; width: 200px; margin-right: 12px"/>
 </a>
 
 A journey to revolutionise Skyscanner's observability platform and help engineers operate complex distributed systems
