@@ -8,7 +8,7 @@ babel==2.17.0
     # via mkdocs-material
 backrefs==5.8
     # via mkdocs-material
-cachecontrol[filecache]==0.14.2
+cachecontrol[filecache]==0.14.3
     # via mkdocs-rss-plugin
 cairocffi==1.7.1
     # via cairosvg
@@ -18,7 +18,7 @@ certifi==2025.4.26
     # via requests
 cffi==1.17.1
     # via cairocffi
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 click==8.1.8
     # via mkdocs
@@ -79,7 +79,7 @@ pillow==10.4.0
     # via
     #   cairosvg
     #   mkdocs-material
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via mkdocs-get-deps
 pycparser==2.22
     # via cffi
