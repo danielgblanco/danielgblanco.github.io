@@ -65,6 +65,14 @@ plugins:
         as_update: date.updated
       categories:
         - categories
+  - minify:
+      minify_js: true
+      minify_css: true
+      cache_safe: true
+      js_files:
+        - assets/js/slo_error_budget.js
+      css_files:
+        - assets/stylesheets/style.css
 
 extra:
   social:
