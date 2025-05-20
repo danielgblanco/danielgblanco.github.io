@@ -8,6 +8,7 @@ setup(
         "mkdocs-material~=9.6.12",
         "mkdocs-rss-plugin~=1.17.1",
         "mkdocs-material[imaging]~=9.6.12",
+        "mkdocs-minify-plugin~=0.7.1",
     ],
     url="https://github.com/danielgblanco/danielgblanco.github.io",
     python_requires=">=3.8",
