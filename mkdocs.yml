@@ -90,6 +90,10 @@ extra:
 extra_css:
   - assets/stylesheets/style.css
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js
+  - assets/js/slo_error_budget.js
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -97,14 +101,17 @@ markdown_extensions:
 
 nav:
   - About Me: index.md
-  - Articles: blog/category/articles/
-  - Publications: blog/category/publications/
-  - Presentations: blog/category/presentations/
-  - Panels: blog/category/panels/
-  - Podcasts: blog/category/podcasts/
   - All Content:
       - blog/index.md
-  - Tags: blog/tags.md
+      - Tags: blog/tags.md
+  - Articles: blog/category/articles/
+  - Panels: blog/category/panels/
+  - Podcasts: blog/category/podcasts/
+  - Presentations: blog/category/presentations/
+  - Publications: blog/category/publications/
+  - Tools:
+      - tools/index.md
+      - SLO Burn Rate: tools/slo_burn_rate.md
 
 validation:
   not_found: ignore
