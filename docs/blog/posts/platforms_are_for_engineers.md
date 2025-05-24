@@ -8,6 +8,7 @@ categories:
 tags:
   - Platform Engineering
 slug: platforms-are-for-engineers
+cSpell:ignore: Rumelt dont contrib dbod Karan Thukral Pais
 ---
 
 # Platforms Are For Engineers, Not Services
@@ -60,7 +61,7 @@ identify what makes a strategy successful. A key takeaway is the imperative to a
 of actions until one has clearly defined 1) the problem to solve, and 2) how the proposed future state will solve
 that problem.
 
-To illustrate this, let's turn to my favorite domain: observability. I've often heard, "we have/need a strategy to
+To illustrate this, let's turn to my favourite domain: observability. I've often heard, "we have/need a strategy to
 adopt OpenTelemetry". While I deeply appreciate the sentiment—as I'd love the world to use OpenTelemetry—a strategy
 shouldn't just be "OpenTelemetry adoption". That's part of the implementation. The crucial question is: why are you
 adopting it? What problems are you trying to solve? Without understanding this, you risk critical gaps in your
@@ -124,7 +125,7 @@ describe the engineering mindset.
 As engineers, we are constantly seeking the path of least resistance. If we hit a wall, we'll spend precious time
 and effort building our own bypass, even if it means eroding the beautiful path you've laid out. So, if you
 _genuinely_ want engineers to follow your best practices or engineering standards, you _must_ make it the absolute
-easist option. Make them ask, _"why would I do it any other way?"_. Otherwise, you'll witness firsthand why
+easiest option. Make them ask, _"why would I do it any other way?"_. Otherwise, you'll witness first-hand why
 "engineer" shares its root with "ingenious". They'll devise "wonderful" workarounds that, as you've guessed,
 rarely align with your standards.
 
@@ -195,7 +196,7 @@ a vital role to ensure that an internal platform can not only reduce toil and in
 but also allow for it to evolve with the industry, meeting their customers' needs.
 
 _Platform_ teams, therefore, should concentrate on delivering capabilities "as-a-service". This includes tooling,
-opinionated configurations, or robust abstraction layers, definining their interaction patterns with other teams
+opinionated configurations, or robust abstraction layers, defining their interaction patterns with other teams
 through an agreed-upon shared responsibility model.
 
 In our OpenTelemetry example above, a _Platform_ team could provide OTel distributions with sensible defaults that
