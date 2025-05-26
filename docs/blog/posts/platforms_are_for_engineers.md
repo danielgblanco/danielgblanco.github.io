@@ -1,7 +1,7 @@
 ---
 date:
   created: 2025-05-24
-  updated: 2025-05-24
+  updated: 2025-05-26
 pin: false
 categories:
   - Articles
@@ -212,14 +212,14 @@ below.
 
       With an API design that decouples API interfaces from their SDK implementations, OpenTelemetry allows
       _Platform_ teams to configure data aggregation, processing and export, empowering service owners to directly
-      rely on the API layer within their codebase. Learn more about this in [OpenTelemetry in 5 Minutes](/opentelemetry_in_five_minutes.md).
+      rely on the API layer within their codebase. Learn more about this in [OpenTelemetry in 5 Minutes](opentelemetry_in_five_minutes.md).
 
 When a skill gap is identified by _Platform_ teams, they can seek assistance from _Enabling_ teams, who will
 facilitate skill development but not take ownership of the task. Conversely, _Enabling_ teams can help identify
 gaps in tooling, and feed this information back to _Platform_ teams to evolve the platform offering.
 
 Known as [interaction modelling](https://teamtopologies.com/key-concepts-content/team-interaction-modeling-with-team-topologies), 
-his concept is vital for aligning your team structures with your target architecture. Even if your organization isn't
+his concept is vital for aligning your team structures with your target architecture. Even if your organisation isn't
 large enough to have separate _Platform_ and _Enabling_ teams, and one team covers both roles, clearly mapping out these
 interactions and ensuring everyone understands them can significantly improve outcomes.
 
