@@ -9,6 +9,7 @@ tags:
   - Observability Day
   - OpenTelemetry
 slug: o11y-day-na-2025-bad-telemetry
+cSpell:ignore: Juraci Paixão Kröhling
 ---
 
 # There's a Lot of Bad Telemetry Out There (Observability Day NA 2025)
