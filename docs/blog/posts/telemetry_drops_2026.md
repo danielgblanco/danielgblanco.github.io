@@ -18,6 +18,7 @@ cSpell:ignore: juraci paixão kröhling
   <img src="/assets/img/telemetry_drops.png" alt="Telemetry Drops Logo" style="float: left; width: 180px; margin-right: 12px"/>
 </a>
 
-I joined my old friend [Juraci Paixão Kröhling](https://www.linkedin.com/in/jpkroehling/) to talk about OTel
-Blueprints,  sharing my vision on how to design observability strategies that
-truly scale and deliver value, going far beyond basic monitoring.
+I joined my old friend [Juraci Paixão Kröhling](https://www.linkedin.com/in/jpkroehling/) to talk about a new
+initiative in the OpenTelemetry project: OTel Blueprints. I shared my vision on
+how to design observability strategies that truly scale and deliver value, going
+far beyond basic monitoring.
