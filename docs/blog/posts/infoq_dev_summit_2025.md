@@ -10,7 +10,7 @@ tags:
   - OpenTelemetry
   - Platform Engineering
 slug: infoq-dev-summit-2025
-cSpell:ignore:
+cSpell:ignore: infoq
 ---
 
 # Building a Future-Proof Observability Platform to Empower Engineers (InfoQ Dev Summit Munich 2025)
