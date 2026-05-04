@@ -7,6 +7,7 @@ categories:
   - Presentations
 tags:
   - QCon
+  - InfoQ
   - OpenTelemetry
 slug: effective-and-efficient-observability-with-opentelemetry
 ---

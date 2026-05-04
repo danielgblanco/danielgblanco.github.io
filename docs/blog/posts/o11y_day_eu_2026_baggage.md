@@ -19,4 +19,4 @@ cSpell:ignore: John Clark
 Observability Day Europe 2026
 
 Find out more in the [event page](https://sched.co/2DY2T). Checkout the
-[slides](../../assets/presentations/ObservabilityDay-EU26-UnpackingYourOTelBaggage.pdf).
+[slides](../../assets/presentations/2026-03-23_o11y_day_unpacking_otel_baggage.pdf).
