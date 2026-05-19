@@ -40,7 +40,7 @@ gitpython==3.1.44
     # via mkdocs-rss-plugin
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
-idna==3.10
+idna==3.15
     # via requests
 jinja2==3.1.6
     # via
