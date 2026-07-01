@@ -97,7 +97,7 @@ pathspec==0.12.1
     # via
     #   mkdocs
     #   properdocs
-pillow==10.4.0
+pillow==12.2.0
     # via
     #   cairosvg
     #   mkdocs-material
