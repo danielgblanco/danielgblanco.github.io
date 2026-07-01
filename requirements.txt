@@ -30,7 +30,7 @@ cssselect2==0.8.0
     # via cairosvg
 defusedxml==0.7.1
     # via cairosvg
-filelock==3.20.3
+filelock==3.29.4
     # via cachecontrol
 ghp-import==2.1.0
     # via mkdocs
@@ -84,7 +84,7 @@ paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
-pillow==10.4.0
+pillow==12.2.0
     # via
     #   cairosvg
     #   mkdocs-material
@@ -106,7 +106,7 @@ pyyaml==6.0.2
     #   pyyaml-env-tag
 pyyaml-env-tag==1.1
     # via mkdocs
-requests==2.33.0
+requests==2.34.2
     # via
     #   cachecontrol
     #   mkdocs-material
