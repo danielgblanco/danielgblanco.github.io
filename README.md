@@ -5,7 +5,7 @@ This is my personal website, built using [Material for MkDocs](https://squidfunk
 ## Prerequisites
 
 - Python 3.13 or higher
-- Node 22 or higher
+- Node 22.18 or higher
 - `pip`
 - `pip-tools`
 - `make`
