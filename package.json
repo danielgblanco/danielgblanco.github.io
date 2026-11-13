@@ -3,9 +3,9 @@
     "check:spelling": "npx cspell --no-progress -c .cspell.yml content data 'docs/**/*.md'"
   },
   "engines": {
-    "node": "22.x"
+    "node": ">=22.18.0"
   },
   "devDependencies": {
-    "cspell": "^8.19.3"
+    "cspell": "^10.4.1"
   }
 }
