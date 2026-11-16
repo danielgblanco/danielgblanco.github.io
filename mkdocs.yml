@@ -53,10 +53,10 @@ plugins:
   - tags
   - social:
       cards_layout_options:
-        logo: assets/img/profile_round_small.png
+        logo: docs/assets/img/profile_round_small.png
         title: Dan Gomez Blanco
         description: ""
-        background_image: assets/img/background.jpg
+        background_image: docs/assets/img/background.jpg
         background_color: "#AED1BA"
   - rss:
       match_path: "blog/posts/.*"
